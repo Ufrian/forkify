@@ -1,5 +1,4 @@
 import { API_URL, RES_PER_PAGE, KEY } from './config';
-// import { getJSON, sendJSON } from './helpers';
 import { AJAX } from './helpers';
 
 export const state = {
@@ -117,7 +116,6 @@ init();
 const clearBookmarks = function () {
   localStorage.clear('bookmarks');
 };
-// clearBookmarks();
 
 export const uploadRecipe = async function (newRecipe) {
   try {
